@@ -18,13 +18,8 @@ namespace PalindromeChecker
                 char lastChar = input[input.Length - 1 - i];
                 char firstChar = input[i];
 
-                //Console.Write(lastChar);
-                //Console.Write(firstChar);
-
-                if(firstChar == lastChar)
-                {
-                    isItTrue = true;
-                }
+                if (firstChar == lastChar)                
+                    isItTrue = true;                
                 else
                 {
                     isItTrue = false;
